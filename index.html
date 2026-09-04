@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yani &amp; Awal — Undangan Pernikahan</title>
+<meta name="description" content="Undangan pernikahan Sri Handayani (Yani) &amp; Awal Saputra, Ahad 20 September 2026 di Gedung Wisma Donggala, Palu.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,450;0,9..144,600;1,9..144,450;1,9..144,600&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="stripe-bar" aria-hidden="true"></div>
+
+<!-- COVER / GATE -->
+<section id="cover" class="cover">
+  <div class="cover-media">
+    <img src="images/couple-3.jpeg" alt="" />
+    <div class="cover-scrim"></div>
+  </div>
+  <div class="cover-content">
+    <p class="cover-kicker">Assalamu'alaikum Warahmatullahi Wabarakatuh</p>
+    <p class="cover-to">Kepada Bapak/Ibu/Saudara/i</p>
+    <h1 class="guest-name" id="guestName">Tamu Undangan</h1>
+    <p class="cover-sub">Kami mengundang Anda untuk hadir di pernikahan kami</p>
+    <button id="openBtn" class="open-btn">Buka Undangan</button>
+  </div>
+</section>
+
+<div id="mainContent" class="hidden">
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="hero-photo">
+      <img src="images/couple-1.jpeg" alt="Sri Handayani (Yani) dan Awal Saputra mengenakan busana adat Bugis">
+    </div>
+    <div class="hero-text">
+      <p class="eyebrow">Undangan Pernikahan</p>
+      <h1 class="names">Yani <span class="amp">&amp;</span> Awal</h1>
+      <p class="date-line">Ahad, 20 September 2026</p>
+      <a href="#acara" class="scroll-cue">Lihat detail acara ↓</a>
+    </div>
+  </header>
+
+  <div class="woven-divider" aria-hidden="true"></div>
+
+  <!-- OPENING QUOTE -->
+  <section class="quote-section">
+    <p class="arabic">وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَاجًا لِّتَسْكُنُوا إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةً وَرَحْمَةً</p>
+    <p class="quote-text">"Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan pasangan untukmu dari jenismu sendiri, agar kamu merasa tenteram kepadanya, dan Dia menjadikan di antaramu rasa kasih dan sayang."</p>
+    <p class="quote-source">QS. Ar-Rum: 21</p>
+  </section>
+
+  <div class="woven-divider" aria-hidden="true"></div>
+
+  <!-- MEMPELAI -->
+  <section id="mempelai" class="mempelai">
+    <p class="section-label">Kedua Mempelai</p>
+    <div class="mempelai-grid">
+      <figure class="mempelai-photo">
+        <img src="images/couple-2.jpeg" alt="Awal Saputra dan Sri Handayani duduk bersanding mengenakan busana adat">
+      </figure>
+      <div class="mempelai-info">
+        <div class="person">
+          <h2>Sri Handayani</h2>
+          <p>Putri ketiga dari<br>Bapak Halim Kuengo &amp; Ibu Sumiati Onggi</p>
+        </div>
+        <div class="joiner">&amp;</div>
+        <div class="person">
+          <h2>Awal Saputra</h2>
+          <p>Putra pertama dari<br>Bapak Anwar &amp; Ibu Afrianty</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="woven-divider" aria-hidden="true"></div>
+
+  <!-- ACARA -->
+  <section id="acara" class="acara">
+    <p class="section-label">Waktu &amp; Tempat</p>
+    <h2 class="acara-heading">Akad Nikah &amp; Resepsi</h2>
+
+    <div class="acara-card">
+      <div class="acara-row">
+        <span class="acara-key">Hari, Tanggal</span>
+        <span class="acara-val">Ahad, 20 September 2026</span>
+      </div>
+      <div class="acara-row">
+        <span class="acara-key">Waktu</span>
+        <span class="acara-val">10.00 WITA – selesai</span>
+      </div>
+      <div class="acara-row">
+        <span class="acara-key">Tempat</span>
+        <span class="acara-val">Gedung Wisma Donggala<br>Jl. Ponegoro, Palu Barat</span>
+      </div>
+      <a class="map-btn" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Gedung%20Wisma%20Donggala%20Jl%20Ponegoro%20Palu%20Barat">Buka di Google Maps</a>
+    </div>
+
+    <div class="countdown" id="countdown" aria-live="polite">
+      <div class="cd-unit"><span class="cd-num" id="cd-days">00</span><span class="cd-label">Hari</span></div>
+      <div class="cd-unit"><span class="cd-num" id="cd-hours">00</span><span class="cd-label">Jam</span></div>
+      <div class="cd-unit"><span class="cd-num" id="cd-mins">00</span><span class="cd-label">Menit</span></div>
+      <div class="cd-unit"><span class="cd-num" id="cd-secs">00</span><span class="cd-label">Detik</span></div>
+    </div>
+  </section>
+
+  <div class="woven-divider" aria-hidden="true"></div>
+
+  <!-- GALLERY -->
+  <section id="galeri" class="galeri">
+    <p class="section-label">Momen</p>
+    <div class="galeri-grid">
+      <button class="galeri-item" data-img="images/couple-1.jpeg"><img src="images/couple-1.jpeg" alt="Foto pasangan 1"></button>
+      <button class="galeri-item" data-img="images/couple-2.jpeg"><img src="images/couple-2.jpeg" alt="Foto pasangan 2"></button>
+      <button class="galeri-item" data-img="images/couple-3.jpeg"><img src="images/couple-3.jpeg" alt="Foto pasangan 3"></button>
+      <button class="galeri-item" data-img="images/couple-4.jpeg"><img src="images/couple-4.jpeg" alt="Foto pasangan 4"></button>
+    </div>
+  </section>
+
+  <div class="woven-divider" aria-hidden="true"></div>
+
+  <!-- UCAPAN -->
+  <section id="ucapan" class="ucapan">
+    <p class="section-label">Doa &amp; Ucapan</p>
+    <p class="ucapan-intro">Tanpa mengurangi rasa hormat, mengingat keadaan yang tidak memungkinkan, kami mengundang Bapak/Ibu/Saudara/i untuk memberikan doa restu melalui kolom berikut.</p>
+    <form id="wishForm" class="wish-form">
+      <input type="text" id="wishName" placeholder="Nama" required>
+      <textarea id="wishMsg" rows="3" placeholder="Tulis doa & ucapan Anda di sini" required></textarea>
+      <button type="submit">Kirim Ucapan</button>
+    </form>
+    <ul id="wishList" class="wish-list"></ul>
+  </section>
+
+  <div class="woven-divider" aria-hidden="true"></div>
+
+  <!-- TURUT MENGUNDANG -->
+  <section class="turut">
+    <details>
+      <summary>Turut mengundang</summary>
+      <div class="turut-grid">
+        <div>
+          <h3>Pihak Wanita</h3>
+          <ul>
+            <li>Moh. Ikbal, S.H., M.H.</li>
+            <li>Dr. Ubay Harun, S.Ag., M.Bi.</li>
+            <li>Drs. Sukri</li>
+            <li>Saiful</li>
+            <li>Muhammad Safaad, S.Sos., M.Si.</li>
+            <li>Sadlin Dg. Manasa</li>
+            <li>Halim Kuengo</li>
+            <li>Jufri Zakaria</li>
+            <li>Muhammad Masykur</li>
+            <li>Marvi Ramdan</li>
+            <li>Otman H. Pontoh, M.Si.</li>
+            <li>Ahmad Yani Otiki</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Pihak Laki-laki</h3>
+          <ul>
+            <li>H. Ibrahim, S.H., M.Si.</li>
+            <li>Ikra Ibrahim, S.p., M.P.</li>
+            <li>Muhlis, S.IP.</li>
+            <li>Sadam, S.HI.</li>
+            <li>Mas UT. H.</li>
+            <li>Halidu L.</li>
+            <li>Ruly</li>
+            <li>Raslan</li>
+            <li>H. Abd. Rahman</li>
+            <li>H. Fahmiluddin</li>
+            <li>Amriadin</li>
+            <li>Samsudin. J</li>
+          </ul>
+        </div>
+      </div>
+    </details>
+  </section>
+
+  <!-- CLOSING -->
+  <footer class="closing">
+    <img class="closing-photo" src="images/couple-4.jpeg" alt="Yani dan Awal">
+    <p class="closing-text">Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir dan memberikan doa restu.</p>
+    <p class="closing-thanks">Atas kehadiran dan doa restunya, kami ucapkan terima kasih.</p>
+    <p class="closing-signoff">Wassalamu'alaikum Warahmatullahi Wabarakatuh</p>
+    <p class="closing-names">Yani &amp; Awal</p>
+  </footer>
+
+</div>
+
+<!-- LIGHTBOX -->
+<div id="lightbox" class="lightbox hidden">
+  <button id="lightboxClose" class="lightbox-close" aria-label="Tutup">×</button>
+  <img id="lightboxImg" src="" alt="">
+</div>
+
+<script type="module" src="script.js"></script>
+</body>
+</html>
